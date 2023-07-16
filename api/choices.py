@@ -1,10 +1,10 @@
-type_creatures= (
-    ('P', 'Passive'),
-    ('N', 'Neutral'),
-    ('H', 'Hostile'),
-    ('B', 'Bosses'),
-    ('Nu', 'Not used'),
-    ('E', 'Eliminated'),
-    ('J', 'Joke'),
-    ('Ni', 'Not implemented')
-)
+type_creature= [
+    ('Bosses', 'Bosses'), 
+    ('Hostile', 'Hostile'),
+    ('Joke', 'Joke'),
+    ('Neutral', 'Neutral'),
+    ('Passive', 'Passive'),
+    ('Eliminated', 'Eliminated'),
+    ('Not implemented', 'Not implemented'),
+    ('Not used', 'Not used'),          
+]
