@@ -131,3 +131,6 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+MEDIA_ROOT = BASE_DIR / "files"
+MEDIA_URL = "/media-files/"
